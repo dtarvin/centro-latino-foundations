@@ -1,0 +1,43 @@
+html {
+    font-size: 3vw;
+}
+body {
+    margin: 0;
+}
+header {
+    font-family: Cinzel, serif;
+    background-color: #003366;
+    color: white;
+    padding: 1em;
+}
+.header--title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    /* position: absolute; */
+    top: 4vh;
+    left: 4vh;
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+}
+h1 {
+    font-size: 1.5em;
+}
+#mobile-menu {
+    display: none;
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+nav {
+    font-size: .75rem;
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    color: white;
+    text-decoration: none; 
+    padding-left: 1em;
+}
