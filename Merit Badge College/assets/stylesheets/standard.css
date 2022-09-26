@@ -1,57 +1,70 @@
 html {
-    font-size: 16px;
+    /* font-size: 3vw; */
+    box-sizing: border-box;
 }
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 header {
     font-family: Cinzel, serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: #003366;
     color: white;
-    padding: 0.5em;
+    height: 55px;
+    /* padding-left: 15px; */
+    padding-right: 15px;
 }
-.header--title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1em;
-    margin-right: 1em;
+a {
+    margin-right: 15px;
 }
 img {
-    /* top: 4vh;
-    left: 4vh;
-    width: 1.5em;
-    height: 1.5em;
-    margin-right: 1em; */
-}
-h1 {
-    font-size: 1em;
-}
-#mobile-menu {
-    display: none;
-    font-size: 1.25em;
-    padding-left: 1em;
+    width: 75px;
+    height: 82px;
+    /* margin-right: 1em; */
 }
 nav {
-    font-size: .5em;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 1em;
+    height: 55px;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar--left-side {
+    display: flex;
+}
+.navbar--right-side {
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar--headings {
+    align-self: center;
 }
 a {
     color: white;
     text-decoration: none; 
-    padding-left: 1em;
+    /* padding-left: 1em; */
 }
-
+#mobile-menu {
+    display: none;
+}
 h5 {
-    font-size: 1rem;
-    padding: 0;
+    font-size: 16px;
     margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    /* font-variant: small-caps; */
 }
 
 h6 {
-    font-size: .75rem;
-    padding: 0;
+    font-size: 12px;
     margin: 0;
+    padding: 0;
+}
+
+input {
+    line-height: 2;
 }
