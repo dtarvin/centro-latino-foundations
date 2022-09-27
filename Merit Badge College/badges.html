@@ -4,9 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badges - Merit Badge College</title>
+    <title>Home - Merit Badge College</title>
+    <link rel="stylesheet" href="assets/stylesheets/standard.css">
+    <link media="screen and (hover: none)" rel="stylesheet" href="assets/stylesheets/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="navbar--left-side">
+                <div>
+                    <a href="home.html">
+                        <img class="logo" src="assets/images/logo-lg.svg" alt="Boy Scout Logo">
+                    </a>
+                </div>
+                <div class="navbar--headings">
+                    <h5>Boy Scouts of America</h5>
+                    <h6>National Merit Badge College</h6>
+                </div>
+            </div>
+            <div class="navbar--right-side">
+                <i id="mobile-menu" class="fa-solid fa-bars"></i>
+                <a href="home.html">Home</a>
+                <a href="badges.html">Badges</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="rules.html">Rules</a>
+                <a href="register.html">Register</a>
+                <input name="search" id="search" type="text" placeholder="search">
+                <i class="fa-solid fa-search"></i>
+            </div>
+        </nav>
+    </header>
+    <h1>Badges</h1>
+    <main class="main--grid-container">
+        <div class="mb-blocks center rounded-border">
+            <img class="mb-emblem" src="./assets/images/archery.png" alt="archery merit badge emblem">
+            <h4>Archery</h4>
+            <p>
+                While working on the requirements for the Archery merit badge, Scouts 
+                learn range safety rules. They also familiarize themselves with archery 
+                equipment and discover how to maintain it. Then they demonstrate their 
+                archery skills using a recurve bow, a longbow, or a compound bow.
+            </p>
+        </div>
+        <div class="mb-blocks center rounded-border">
+            <img class="mb-emblem" src="./assets/images/citizenship-nation.png" alt="citizenship in the nation merit badge emblem">
+            <h4>Citizenship in the Nation</h4>
+            <p>
+                Scouts working on the Citizenship in the Nation merit badge learn about 
+                the rights, duties, and obligations of United States citizens. They 
+                explore important places in our nation and learn to keep up with national 
+                events. They also investigate the importance of documents like the 
+                Declaration of Independence, the Constitution, and the Bill of Rights. 
+                Scouts also find out about the branches of our federal government and how 
+                they compliment and balance each other.
+            </p>
+        </div>
+        <div class="mb-blocks center rounded-border">
+            <img class="mb-emblem" src="./assets/images/electricity.png" alt="electricity merit badge emblem">
+            <h4>Electricity</h4>
+            <p>
+                While doing the requirements for the Electricity merit badge, Scouts learn 
+                about the many uses of electricity, including electromagnets, batteries, 
+                home lighting, motors, and more. They find out how to safely use 
+                electricity and avoid hazards. Scouts get some hands on experience with 
+                some simple electric circuits and devices.
+            </p>
+        </div>
+    </main>
 </body>
 </html>
