@@ -18,6 +18,7 @@ header {
     height: 55px;
     /* padding-left: 15px; */
     padding-right: 15px;
+    z-index: 5;
 }
 a {
     margin-right: 15px;
@@ -98,9 +99,56 @@ main {
 
 .mb-blocks {
     padding: 25px;
+    background-color: white;
+    z-index: 2;
+}
+
+.badges--page-title {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    position: relative;
+    top: 95px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 
 h4 {
     font-size: 24px;
     margin: 0;
+}
+
+.home--background {
+    background-image: url(../images/sep-campout-farm-mechanics-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.home--background::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5;
+    height: 100%;
+}
+
+.home--main--name-and-date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.home--main--name-and-date > h1 {
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
