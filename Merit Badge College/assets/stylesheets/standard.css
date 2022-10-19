@@ -15,7 +15,7 @@ header {
     left: 0;
     background-color: #003366;
     color: white;
-    height: 55px;
+    height: 60px;
     /* padding-left: 15px; */
     padding-right: 15px;
     z-index: 5;
@@ -24,9 +24,7 @@ a {
     margin-right: 15px;
 }
 .logo {
-    width: 75px;
     height: 82px;
-    /* margin-right: 1em; */
 }
 nav {
     display: flex;
@@ -117,9 +115,12 @@ h4 {
     background-image: url(../images/sep-campout-farm-mechanics-1.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 0 0;
     background-repeat: no-repeat;
-    
+    height: 100vh;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .home--background::before {
@@ -131,7 +132,7 @@ h4 {
     right: 0;
     bottom: 0;
     opacity: .5;
-    height: 100%;
+    min-height: 100vh;
 }
 
 .home--main--name-and-date {
@@ -141,6 +142,7 @@ h4 {
     transform: translate(-50%, -50%);
     font-family: 'Roboto Slab', serif;
     color: white;
+    width: 100%;
 }
 
 .home--main--name-and-date > h1 {
@@ -184,4 +186,18 @@ h4 {
 
 h1 {
     font-size: 4em;
+}
+
+.nav--search-button {
+    margin: 0;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: blue;
+    color:white;
+    line-height: 2;
+}
+
+.nav--search-box {
+    border: 0;
 }
