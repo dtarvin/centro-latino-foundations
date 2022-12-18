@@ -1,0 +1,56 @@
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blue {
+    background-color: #003366;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo > img {
+    height: 42px;
+    padding-left: .5em;
+}
+
+.site-titles {
+    display: inline-block;
+    font-family: Cinzel, serif;
+    color: white;
+}
+
+.site-titles--headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.site-titles--headings > h5,
+.site-titles--headings > h6 {
+    margin: 0;
+}
+
+.site-titles--headings > h5 {
+    font-size: .5rem;
+}
+
+.site-titles--headings > h6 {
+    font-size: .4rem;
+}
